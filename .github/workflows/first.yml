@@ -1,6 +1,7 @@
 name: first
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '07 * * * *'
 
