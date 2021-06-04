@@ -3,7 +3,7 @@ name: first
 on:
   workflow_dispatch:
   schedule:
-    - cron: '07 * * * *'
+    - cron: '7 * * * *'
 
 jobs:
   just-echo-time:
