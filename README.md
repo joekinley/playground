@@ -1,9 +1,9 @@
-= Playground
+# Playground
 
-== Testing Github Actions
+## Testing Github Actions
 
 This is testing github actions. 
 
-=== .git/workflws/first.yml
+### .git/workflws/first.yml
 
 Just a simple cronjob scheduled action that shows date.
