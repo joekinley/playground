@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: First test
         run: date
+      - name: My Curl Test
+        run: curl http://joekinley.org
