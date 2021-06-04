@@ -1,0 +1,12 @@
+name: first
+
+on:
+  schedule:
+    - cron: '07 * * * *'
+
+jobs:
+  just-echo-time:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First test
+        run: date
